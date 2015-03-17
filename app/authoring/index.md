@@ -74,7 +74,7 @@ You may not like keeping all your code at the root of your folder. Luckily, Yeom
 The previous example can be written as follows:
 
 ```
-├───package.json
+|───package.json
 └───generators/
     ├───app/
     │   └───index.js
@@ -163,7 +163,7 @@ On the command line, from the root of your generator project (in the `generator-
 npm link
 ```
 
-That will install your project dependencies and symlink a global module to your local file. After npm is done, you'll be able to call `yo name` and you should see the `console.log`, defined earlier, rendered in the terminal. Congratulations, you just built your first generator!
+That will install your project dependencies and symlink a global module to your local file. After npm is done, you'll be able to call `yo name`(in my case I have to call `yo name:app`) and you should see the `console.log`, defined earlier, rendered in the terminal. Congratulations, you just built your first generator!
 
 
 ### Finding the project root
